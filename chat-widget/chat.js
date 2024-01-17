@@ -159,7 +159,7 @@ function showchatbox() {
 
 
 //Connection URL of signalR
-var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:7134/chatHub").build();
+var connection = new signalR.HubConnectionBuilder().withUrl("https://b3a1-115-245-156-254.ngrok-free.app/chatHub").build();
 document.getElementById("sendButton").disabled = true;
 
 //On starting connection update connection ID in database
