@@ -105,6 +105,9 @@ function uservalidate() {
 function toggleChat() {
     $("#chat-widget").toggle();
 }
+$("#chat-icon").click(function(){
+    $("#chat-widget").toggle();
+});
 //Function to fetch active user details
 //Those who lost the connection or those didn't end the chat
 function showchatbox() {
